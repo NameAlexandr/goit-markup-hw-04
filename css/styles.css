@@ -499,12 +499,6 @@ address {
   text-transform: uppercase;
   color: var(--primary-background-color);
 }
-.footer .link {
-  width: 44px;
-  height: 44px;
-  border: 1px solid white;
-  border-radius: 50%;
-}
 .footer .social-links {
   margin-top: 16px;
   display: flex;
@@ -517,13 +511,22 @@ address {
   fill: var(--rectangle-color);
   width: 44px;
   height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  fill: var(--primary-background-color);
+}
+.footer .link:focus,
+.footer .link:hover {
+  background-color: var(--accent-color);
 }
 .footer .social {
   display: block;
+  width: 206px;
+  height: 80px;
 }
-.footer
-.footer
-.footer
+
 /* -------------------hidden------------------ */
 .hidden {
   position: absolute;
