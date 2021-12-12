@@ -408,8 +408,8 @@ img {
   margin-left: -30px;
   margin-top: -30px;
 }
-.card-link{
-  font-style: normal;
+.card-link {
+  text-decoration: none;
 }
 .card-set .article:hover,
 .card-set .article:focus {
@@ -431,7 +431,6 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
-  sty
 }
 .card-set .par {
   margin-top: 4px;
